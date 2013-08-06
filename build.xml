@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="life" default="build">
+	<description>
+		An implementation of Conway's Game of Life
+		- "ant" or "ant build" will build the application
+		- "ant clean" will clean the build
+		- "java Life" will launch the app
+	</description>
+
+	<target name="build">
+		<javac srcdir="." />
+	</target>
+
+	<target name="clean">
+		<exec executable="rm">
+			<arg value="*.class" />
+		</exec>
+	</target>
+
+</project>
