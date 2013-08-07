@@ -95,7 +95,7 @@ public class Life extends JFrame implements MouseMotionListener, MouseListener, 
 		// Add stats
 		stats 		= new LifeStats();
 		c.fill 		= GridBagConstraints.NONE;
-		c.weightx 	= .01;
+		c.weightx 	= .20;
 		c.weighty 	= .01;
 		c.gridx 	= 1;
 		c.gridy 	= 0;
