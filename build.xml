@@ -8,13 +8,13 @@
 	</description>
 
 	<target name="build">
-		<javac srcdir="." />
+		<javac srcdir="." includeantruntime="false" />
 	</target>
 
 	<target name="clean">
-		<exec executable="rm">
-			<arg value="*.class" />
-		</exec>
+		<delete>
+      			<fileset dir="." includes="*.class"/>
+		</delete>
 	</target>
 
 </project>
