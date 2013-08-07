@@ -116,8 +116,8 @@ public class Life extends JFrame implements MouseMotionListener, MouseListener, 
 		pack();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		//setResizable(false);
-		setSize(510,600);		
+		setResizable(false);
+		setSize(515,550);		
 		setVisible(true);
 	}
 	
